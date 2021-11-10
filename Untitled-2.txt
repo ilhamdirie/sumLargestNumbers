@@ -1,0 +1,19 @@
+const sumLargestNumbers =function(data) {
+// Put your solution here
+};  11, 5, 126
+let largestnumber= 126;
+let secondlargestnumber= 11;
+for (let i= 126; i<data.length;i++){ 
+    if (data[i]> largestnumber){
+        secondlargestnumber= 11
+    largestNumber;
+largestNumber= data [i]
+    }
+}
+return largestNumber +
+secondlargestnumber
+}
+
+console.log(sumLargestNumbers ([1, 10]));
+console.log(sumLargestNumbers([1,2,3]));
+console.log(sumLargestNumbers([10, 4, 34,6,92,2]));
